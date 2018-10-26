@@ -1,0 +1,21 @@
+`define H_LED_ADDR    			(32'h1f800000) ->MIPS (bf800000)
+`define H_SW_ADDR   			(32'h1f800004) ->MIPS (bf800004)
+`define H_PB_ADDR   			(32'h1f800008) ->MIPS (bf800008)
+`define H_BotInfo_ADDR   	    (32'h1f80000C) -> MIPS (bf80000C)
+`define H_BotUpdt_Sync_ADDR   	(32'h1f800010) -> MIPS (bf800010) least significant bit in register is update bit
+`define H_BotCtrl_ADDR   	    (32'h1f800014) ->MIPS (bf800014)
+`define H_INT_ACK_ADDR   	    (32'h1f800018) ->MIPS (bf800018) least significant bit in register is ACK
+
+bits laid out in in the BotInfo Register like this
+assign IO_BOTINFO[31:24] = LocX_reg;
+  assign IO_BOTINFO[23:16] = LocY_reg;
+  assign IO_BOTINFO[15:8] = Sensors_reg;
+  assign IO_BOTINFO[7:0] = iobotinfo;
+
+bits laid out in the PB (button register like so)
+assign pbtn_in[5] = CPU_RESETN; //mask out button c and cpu reset to only get motor control bits
+  assign pbtn_in[4] = BTNC;
+  assign pbtn_in[3] = BTNU;
+  assign pbtn_in[2] = BTND;
+  assign pbtn_in[1] = BTNL;
+  assign pbtn_in[0] = BTNR;
