@@ -1,3 +1,9 @@
+`define H_DIS_EN_ADDR           (32'h1f700000) ->MIPS (bf700000)
+`define H_DIS_DIGL_ADDR         (32'h1f700008) ->MIPS (bf700008)
+`define H_DIS_DIGH_ADDR         (32'h1f700004) ->MIPS (bf700004)
+`define H_DIS_DP_ADDR           (32'h1f70000C) ->MIPS (bf70000C)
+
+
 `define H_LED_ADDR    			(32'h1f800000) ->MIPS (bf800000)
 `define H_SW_ADDR   			(32'h1f800004) ->MIPS (bf800004)
 `define H_PB_ADDR   			(32'h1f800008) ->MIPS (bf800008)
@@ -13,9 +19,54 @@ assign IO_BOTINFO[31:24] = LocX_reg;
   assign IO_BOTINFO[7:0] = iobotinfo;
 
 bits laid out in the PB (button register like so)
-assign pbtn_in[5] = CPU_RESETN; //mask out button c and cpu reset to only get motor control bits
+assign pbtn_in[5] = CPU_RESETN;//mask out button c and cpu reset to only get motor control bits
   assign pbtn_in[4] = BTNC;
-  assign pbtn_in[3] = BTNU;
-  assign pbtn_in[2] = BTND;
-  assign pbtn_in[1] = BTNL;
-  assign pbtn_in[0] = BTNR;
+  assign pbtn_in[3] = BTNL;
+  assign pbtn_in[2] = BTNU;
+  assign pbtn_in[1] = BTNR;
+  assign pbtn_in[0] = BTND;
+
+
+mask out orientation:
+ORIENTMSK = x07;
+AND ORIENT BOTINFODATA ORIENTMSK
+
+if(ORIENT == 0)
+	DISPLAY 0;
+	0 in displays 0,1,2
+if(ORIENT == 1)
+	DISPLAY 45
+	0 in display 2
+	4 in display 1
+	5 in display 0
+if(ORIENT == 2)
+	DISPLAY 90
+	0 in display 2
+	9 in display 1
+	0 in display 0
+if(ORIENT == 3)
+	DISPLAY = 135
+	DISPLAY 90
+	0 in display 2
+	9 in display 1
+	0 in display 0
+if(ORIENT == 4)
+	DISPLAY = 180
+	1 in display 2
+	8 in display 1
+	0 in display 0
+if(ORIENT == 5)
+	DISPLAY = 225
+	2 in display 2
+	2 in display 1
+	5 in display 0
+if(ORIENT == 6)
+	DISPLAY = 270
+	2 in display 2
+	7 in display 1
+	0 in display 0
+if(ORIENT == 7)
+	DISPLAY = 315
+	3 in display 2
+	1 in display 1
+	5 in display 0
