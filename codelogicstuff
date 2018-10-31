@@ -1,0 +1,17 @@
+1 way to order code
+initialize registers->
+goto statemachineoutputlogic
+//robot update logic here: {
+if(robotupdate)
+ write 1 to ACK (turns off the update signal)
+ goto statemachinenextlogic
+else goto robotupdate logic }//loops until update
+//statemachinenextlogic here {}
+continue to statemachineoutputlogic
+//statemachineoutputlogic here
+{
+	statemachineoutput stuff
+	update orientation on 7 seg display
+	write 0 to ACK (update register can now be set)
+	return to update logic loop ->
+}
