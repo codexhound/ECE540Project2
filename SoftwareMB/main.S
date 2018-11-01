@@ -64,7 +64,7 @@ IDLE_CNT			= 0x0
 FAST_LEFT_CNT		= 0x23
 FAST_RIGHT_CNT		= 0x32
 
-//use these two lines for debugging
+#use these two lines for debugging
 #li $22, IDLE_CNT					#read in the idle control value
 #sw $22, 0($9)						#write out idle to bot control
  
