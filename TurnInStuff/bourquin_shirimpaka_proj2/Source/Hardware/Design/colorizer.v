@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Portland State University
+// Engineer: Michael Bourquin
 // 
 // Create Date: 10/23/2018 05:05:14 PM
 // Design Name: World Colorizer
