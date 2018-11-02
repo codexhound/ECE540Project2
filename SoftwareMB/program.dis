@@ -405,486 +405,486 @@ C:\Users\RampantVelcro\Desktop\SocProject1\software/dummy.S:59
 80000200:	00000000 	nop
 
 80000204 <main>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:74
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:72
 80000204:	24040000 	li	a0,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:75
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:73
 80000208:	2405005a 	li	a1,90
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:76
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:74
 8000020c:	3c06bf70 	lui	a2,0xbf70
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:77
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:75
 80000210:	3c07bf70 	lui	a3,0xbf70
 80000214:	34e70008 	ori	a3,a3,0x8
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:78
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:76
 80000218:	3c08bf80 	lui	t0,0xbf80
 8000021c:	35080008 	ori	t0,t0,0x8
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:79
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:77
 80000220:	3c09bf80 	lui	t1,0xbf80
 80000224:	35290014 	ori	t1,t1,0x14
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:80
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:78
 80000228:	3c0abf80 	lui	t2,0xbf80
 8000022c:	354a000c 	ori	t2,t2,0xc
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:81
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:79
 80000230:	3c0bbf80 	lui	t3,0xbf80
 80000234:	356b0010 	ori	t3,t3,0x10
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:82
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:80
 80000238:	3c0cbf80 	lui	t4,0xbf80
 8000023c:	358c0018 	ori	t4,t4,0x18
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:83
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:81
 80000240:	240d0000 	li	t5,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:84
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:82
 80000244:	240e005a 	li	t6,90
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:85
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:83
 80000248:	240f0000 	li	t7,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:86
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:84
 8000024c:	24170000 	li	s7,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:87
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:85
 80000250:	24180000 	li	t8,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:93
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:91
 80000254:	24190000 	li	t9,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:95
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:93
 80000258:	241600f8 	li	s6,248
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:96
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:94
 8000025c:	acd60000 	sw	s6,0(a2)
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:98
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:96
 80000260:	24160000 	li	s6,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:101
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:99
 80000264:	0c000173 	jal	800005cc <getBotInfoandDisplay>
 80000268:	ad360000 	sw	s6,0(t1)
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:102
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:100
 8000026c:	080000fa 	j	800003e8 <statemachineoutput>
 80000270:	00000000 	nop
 
 80000274 <updatelooplogic>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:106
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:104
 80000274:	8d760000 	lw	s6,0(t3)
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:109
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:107
 80000278:	12c0fffe 	beqz	s6,80000274 <updatelooplogic>
 8000027c:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:110
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:108
 80000280:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:113
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:111
 80000284:	24160001 	li	s6,1
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:120
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:118
 80000288:	0c000173 	jal	800005cc <getBotInfoandDisplay>
 8000028c:	ad960000 	sw	s6,0(t4)
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:122
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:120
 80000290:	080000a6 	j	80000298 <nextstatelogic>
 80000294:	00000000 	nop
 
 80000298 <nextstatelogic>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:127
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:125
 80000298:	1080000f 	beqz	a0,800002d8 <forwardnextlabel>
 8000029c:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:128
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:126
 800002a0:	24010001 	li	at,1
 800002a4:	10810012 	beq	a0,at,800002f0 <rightturnnextlabel>
 800002a8:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:129
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:127
 800002ac:	24010002 	li	at,2
 800002b0:	10810024 	beq	a0,at,80000344 <reversenextlabel>
 800002b4:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:130
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:128
 800002b8:	24010003 	li	at,3
 800002bc:	10810029 	beq	a0,at,80000364 <forwardnot180nextlabel>
 800002c0:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:131
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:129
 800002c4:	24010004 	li	at,4
 800002c8:	10810024 	beq	a0,at,8000035c <forwardnot180nextset>
 800002cc:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:132
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:130
 800002d0:	080000b6 	j	800002d8 <forwardnextlabel>
 800002d4:	00000000 	nop
 
 800002d8 <forwardnextlabel>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:137
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:135
 800002d8:	32f60700 	andi	s6,s7,0x700
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:138
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:136
 800002dc:	0016b202 	srl	s6,s6,0x8
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:141
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:139
 800002e0:	16c0003b 	bnez	s6,800003d0 <nextstatereverse>
 800002e4:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:143
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:141
 800002e8:	080000fa 	j	800003e8 <statemachineoutput>
 800002ec:	00000000 	nop
 
 800002f0 <rightturnnextlabel>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:148
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:146
 800002f0:	32f60700 	andi	s6,s7,0x700
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:149
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:147
 800002f4:	0016b202 	srl	s6,s6,0x8
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:153
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:151
 800002f8:	0205b022 	sub	s6,s0,a1
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:155
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:153
 800002fc:	240100b4 	li	at,180
 80000300:	16c10003 	bne	s6,at,80000310 <checkorientdiff0>
 80000304:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:157
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:155
 80000308:	080000fa 	j	800003e8 <statemachineoutput>
 8000030c:	00000000 	nop
 
 80000310 <checkorientdiff0>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:161
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:159
 80000310:	16c00003 	bnez	s6,80000320 <checkorientdiffneg180>
 80000314:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:163
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:161
 80000318:	080000fa 	j	800003e8 <statemachineoutput>
 8000031c:	00000000 	nop
 
 80000320 <checkorientdiffneg180>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:167
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:165
 80000320:	2401ff4c 	li	at,-180
 80000324:	16c10003 	bne	s6,at,80000334 <checkorientdifflastforward180>
 80000328:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:169
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:167
 8000032c:	080000fa 	j	800003e8 <statemachineoutput>
 80000330:	00000000 	nop
 
 80000334 <checkorientdifflastforward180>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:173
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:171
 80000334:	160e002a 	bne	s0,t6,800003e0 <nextstateforwardnot180set>
 80000338:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:175
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:173
 8000033c:	080000fa 	j	800003e8 <statemachineoutput>
 80000340:	00000000 	nop
 
 80000344 <reversenextlabel>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:179
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:177
 80000344:	32f60700 	andi	s6,s7,0x700
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:180
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:178
 80000348:	0016b202 	srl	s6,s6,0x8
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:183
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:181
 8000034c:	12c0001e 	beqz	s6,800003c8 <rightturnnext>
 80000350:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:185
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:183
 80000354:	080000fa 	j	800003e8 <statemachineoutput>
 80000358:	00000000 	nop
 
 8000035c <forwardnot180nextset>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:190
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:188
 8000035c:	080000f6 	j	800003d8 <nextstateforwardnot180>
 80000360:	00000000 	nop
 
 80000364 <forwardnot180nextlabel>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:195
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:193
 80000364:	32f60700 	andi	s6,s7,0x700
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:196
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:194
 80000368:	0016b202 	srl	s6,s6,0x8
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:199
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:197
 8000036c:	12c00003 	beqz	s6,8000037c <checkpostionchange>
 80000370:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:200
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:198
 80000374:	080000f4 	j	800003d0 <nextstatereverse>
 80000378:	00000000 	nop
 
 8000037c <checkpostionchange>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:205
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:203
 8000037c:	3c02ff00 	lui	v0,0xff00
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:206
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:204
 80000380:	02e2b024 	and	s6,s7,v0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:207
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:205
 80000384:	0016b602 	srl	s6,s6,0x18
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:208
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:206
 80000388:	3303ff00 	andi	v1,t8,0xff00
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:209
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:207
 8000038c:	00031a02 	srl	v1,v1,0x8
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:211
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:209
 80000390:	1476000b 	bne	v1,s6,800003c0 <nextstateforward>
 80000394:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:213
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:211
 80000398:	080000e8 	j	800003a0 <checkpositionchange2>
 8000039c:	00000000 	nop
 
 800003a0 <checkpositionchange2>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:217
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:215
 800003a0:	3c0200ff 	lui	v0,0xff
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:218
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:216
 800003a4:	02e2b024 	and	s6,s7,v0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:219
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:217
 800003a8:	0016b402 	srl	s6,s6,0x10
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:220
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:218
 800003ac:	330300ff 	andi	v1,t8,0xff
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:222
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:220
 800003b0:	14760003 	bne	v1,s6,800003c0 <nextstateforward>
 800003b4:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:224
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:222
 800003b8:	080000fa 	j	800003e8 <statemachineoutput>
 800003bc:	00000000 	nop
 
 800003c0 <nextstateforward>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:229
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:229
 800003c0:	080000fa 	j	800003e8 <statemachineoutput>
 800003c4:	24040000 	li	a0,0
 
 800003c8 <rightturnnext>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:234
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:234
 800003c8:	080000fa 	j	800003e8 <statemachineoutput>
 800003cc:	24040001 	li	a0,1
 
 800003d0 <nextstatereverse>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:239
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:239
 800003d0:	080000fa 	j	800003e8 <statemachineoutput>
 800003d4:	24040002 	li	a0,2
 
 800003d8 <nextstateforwardnot180>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:244
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:244
 800003d8:	080000fa 	j	800003e8 <statemachineoutput>
 800003dc:	24040003 	li	a0,3
 
 800003e0 <nextstateforwardnot180set>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:249
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:249
 800003e0:	080000fa 	j	800003e8 <statemachineoutput>
 800003e4:	24040004 	li	a0,4
 
 800003e8 <statemachineoutput>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:253
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:256
 800003e8:	1080000f 	beqz	a0,80000428 <forwardoutlabel>
 800003ec:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:254
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:257
 800003f0:	24010001 	li	at,1
 800003f4:	10810010 	beq	a0,at,80000438 <rightturnoutlabel>
 800003f8:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:255
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:258
 800003fc:	24010002 	li	at,2
 80000400:	10810010 	beq	a0,at,80000444 <reverseoutlabel>
 80000404:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:256
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:259
 80000408:	24010003 	li	at,3
 8000040c:	10810010 	beq	a0,at,80000450 <forwardnot180outlabel>
 80000410:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:257
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:260
 80000414:	24010004 	li	at,4
 80000418:	10810010 	beq	a0,at,8000045c <forwardnot180outsetlabel>
 8000041c:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:258
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:261
 80000420:	0800010a 	j	80000428 <forwardoutlabel>
 80000424:	00000000 	nop
 
 80000428 <forwardoutlabel>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:263
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:266
 80000428:	24160033 	li	s6,51
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:264
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:267
 8000042c:	ad360000 	sw	s6,0(t1)
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:267
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:270
 80000430:	08000123 	j	8000048c <statemachineoutputdone>
 80000434:	00102820 	add	a1,zero,s0
 
 80000438 <rightturnoutlabel>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:270
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:273
 80000438:	24160030 	li	s6,48
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:273
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:276
 8000043c:	08000123 	j	8000048c <statemachineoutputdone>
 80000440:	ad360000 	sw	s6,0(t1)
 
 80000444 <reverseoutlabel>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:276
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:279
 80000444:	24160022 	li	s6,34
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:279
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:282
 80000448:	08000123 	j	8000048c <statemachineoutputdone>
 8000044c:	ad360000 	sw	s6,0(t1)
 
 80000450 <forwardnot180outlabel>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:282
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:285
 80000450:	24160033 	li	s6,51
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:285
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:288
 80000454:	08000123 	j	8000048c <statemachineoutputdone>
 80000458:	ad360000 	sw	s6,0(t1)
 
 8000045c <forwardnot180outsetlabel>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:288
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:291
 8000045c:	00107020 	add	t6,zero,s0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:291
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:294
 80000460:	3c02ff00 	lui	v0,0xff00
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:292
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:295
 80000464:	02e2b024 	and	s6,s7,v0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:293
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:296
 80000468:	0016b402 	srl	s6,s6,0x10
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:294
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:297
 8000046c:	02c0c020 	add	t8,s6,zero
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:295
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:298
 80000470:	3c0200ff 	lui	v0,0xff
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:296
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:299
 80000474:	02e2b024 	and	s6,s7,v0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:297
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:300
 80000478:	0016b402 	srl	s6,s6,0x10
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:298
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:301
 8000047c:	02d8c020 	add	t8,s6,t8
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:300
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:303
 80000480:	24160033 	li	s6,51
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:303
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:306
 80000484:	08000123 	j	8000048c <statemachineoutputdone>
 80000488:	ad360000 	sw	s6,0(t1)
 
 8000048c <statemachineoutputdone>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:306
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:309
 8000048c:	24160000 	li	s6,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:309
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:312
 80000490:	0800009d 	j	80000274 <updatelooplogic>
 80000494:	ad960000 	sw	s6,0(t4)
 
 80000498 <getOrientation>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:317
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:320
 80000498:	12800018 	beqz	s4,800004fc <setorient0>
 8000049c:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:318
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:321
 800004a0:	24010001 	li	at,1
 800004a4:	1281001a 	beq	s4,at,80000510 <setorient45>
 800004a8:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:319
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:322
 800004ac:	24010002 	li	at,2
 800004b0:	1281001c 	beq	s4,at,80000524 <setorient90>
 800004b4:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:320
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:323
 800004b8:	24010003 	li	at,3
 800004bc:	1281001e 	beq	s4,at,80000538 <setorient135>
 800004c0:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:321
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:324
 800004c4:	24010004 	li	at,4
 800004c8:	12810020 	beq	s4,at,8000054c <setorient180>
 800004cc:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:322
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:325
 800004d0:	24010005 	li	at,5
 800004d4:	12810022 	beq	s4,at,80000560 <setorient225>
 800004d8:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:323
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:326
 800004dc:	24010006 	li	at,6
 800004e0:	12810024 	beq	s4,at,80000574 <setorient270>
 800004e4:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:324
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:327
 800004e8:	24010007 	li	at,7
 800004ec:	12810026 	beq	s4,at,80000588 <setorient315>
 800004f0:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:325
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:328
 800004f4:	0800013f 	j	800004fc <setorient0>
 800004f8:	00000000 	nop
 
 800004fc <setorient0>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:328
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:333
 800004fc:	20100000 	addi	s0,zero,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:329
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:334
 80000500:	20110000 	addi	s1,zero,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:330
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:335
 80000504:	20120000 	addi	s2,zero,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:332
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:337
 80000508:	08000167 	j	8000059c <endgetOrientation>
 8000050c:	20130000 	addi	s3,zero,0
 
 80000510 <setorient45>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:335
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:340
 80000510:	2010002d 	addi	s0,zero,45
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:336
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:341
 80000514:	20110000 	addi	s1,zero,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:337
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:342
 80000518:	20120004 	addi	s2,zero,4
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:339
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:344
 8000051c:	08000167 	j	8000059c <endgetOrientation>
 80000520:	20130005 	addi	s3,zero,5
 
 80000524 <setorient90>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:342
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:347
 80000524:	2010005a 	addi	s0,zero,90
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:343
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:348
 80000528:	20110000 	addi	s1,zero,0
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:344
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:349
 8000052c:	20120009 	addi	s2,zero,9
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:346
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:351
 80000530:	08000167 	j	8000059c <endgetOrientation>
 80000534:	20130000 	addi	s3,zero,0
 
 80000538 <setorient135>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:349
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:354
 80000538:	20100087 	addi	s0,zero,135
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:350
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:355
 8000053c:	20110001 	addi	s1,zero,1
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:351
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:356
 80000540:	20120003 	addi	s2,zero,3
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:353
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:358
 80000544:	08000167 	j	8000059c <endgetOrientation>
 80000548:	20130005 	addi	s3,zero,5
 
 8000054c <setorient180>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:356
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:361
 8000054c:	201000b4 	addi	s0,zero,180
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:357
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:362
 80000550:	20110001 	addi	s1,zero,1
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:358
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:363
 80000554:	20120008 	addi	s2,zero,8
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:360
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:365
 80000558:	08000167 	j	8000059c <endgetOrientation>
 8000055c:	20130000 	addi	s3,zero,0
 
 80000560 <setorient225>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:363
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:368
 80000560:	201000e1 	addi	s0,zero,225
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:364
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:369
 80000564:	20110002 	addi	s1,zero,2
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:365
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:370
 80000568:	20120002 	addi	s2,zero,2
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:367
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:372
 8000056c:	08000167 	j	8000059c <endgetOrientation>
 80000570:	20130005 	addi	s3,zero,5
 
 80000574 <setorient270>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:370
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:375
 80000574:	2010010e 	addi	s0,zero,270
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:371
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:376
 80000578:	20110002 	addi	s1,zero,2
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:372
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:377
 8000057c:	20120007 	addi	s2,zero,7
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:374
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:379
 80000580:	08000167 	j	8000059c <endgetOrientation>
 80000584:	20130000 	addi	s3,zero,0
 
 80000588 <setorient315>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:377
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:382
 80000588:	2010013b 	addi	s0,zero,315
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:378
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:383
 8000058c:	20110003 	addi	s1,zero,3
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:379
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:384
 80000590:	20120001 	addi	s2,zero,1
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:381
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:386
 80000594:	08000167 	j	8000059c <endgetOrientation>
 80000598:	20130005 	addi	s3,zero,5
 
 8000059c <endgetOrientation>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:384
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:389
 8000059c:	03e00008 	jr	ra
 800005a0:	00000000 	nop
 
 800005a4 <displayOrientation>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:391
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:396
 800005a4:	0220b020 	add	s6,s1,zero
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:392
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:397
 800005a8:	0016b400 	sll	s6,s6,0x10
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:393
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:398
 800005ac:	00166820 	add	t5,zero,s6
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:395
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:400
 800005b0:	0240b020 	add	s6,s2,zero
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:396
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:401
 800005b4:	0016b200 	sll	s6,s6,0x8
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:397
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:402
 800005b8:	01b66820 	add	t5,t5,s6
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:399
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:404
 800005bc:	0260b020 	add	s6,s3,zero
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:401
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:406
 800005c0:	01b66820 	add	t5,t5,s6
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:405
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:410
 800005c4:	03e00008 	jr	ra
 800005c8:	aced0000 	sw	t5,0(a3)
 
 800005cc <getBotInfoandDisplay>:
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:412
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:417
 800005cc:	001fc820 	add	t9,zero,ra
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:414
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:419
 800005d0:	8d570000 	lw	s7,0(t2)
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:417
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:422
 800005d4:	0c000126 	jal	80000498 <getOrientation>
 800005d8:	32f40007 	andi	s4,s7,0x7
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:418
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:423
 800005dc:	0c000169 	jal	800005a4 <displayOrientation>
 800005e0:	00000000 	nop
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:420
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:425
 800005e4:	0019f820 	add	ra,zero,t9
-C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project1\Software/main.S:421
+C:\Users\RampantVelcro\Desktop\Class\Fall2018\ECE540\ECE540Project2\SoftwareMB/main.S:426
 800005e8:	03e00008 	jr	ra
 800005ec:	00000000 	nop
 
@@ -1031,7 +1031,7 @@ Disassembly of section .debug_info:
  188:	53412055 	beql	k0,at,82e0 <BLACKLINE_MSK+0x7be0>
  18c:	322e3220 	andi	t6,s1,0x3220
  190:	30392e34 	andi	t9,at,0x2e34
- 194:	79800100 	ori.b	$w4,$w0,0x80
+ 194:	7b800100 	xori.b	$w4,$w0,0x80
  198:	02000000 	0x2000000
  19c:	00005000 	sll	t2,zero,0x0
  1a0:	52010400 	beql	s0,at,11a4 <BLACKLINE_MSK+0xaa4>
@@ -1056,13 +1056,15 @@ Disassembly of section .debug_info:
  1ec:	34354543 	ori	s5,at,0x4543
  1f0:	6f725030 	0x6f725030
  1f4:	7463656a 	jalx	18d95a8 <LOC_Y_MSK+0x8e95a8>
- 1f8:	6f535c31 	0x6f535c31
+ 1f8:	6f535c32 	0x6f535c32
  1fc:	61777466 	0x61777466
- 200:	47006572 	bz.b	$w0,197cc <BLACKLINE_MSK+0x190cc>
- 204:	4120554e 	0x4120554e
- 208:	2e322053 	sltiu	s2,s1,8275
- 20c:	392e3432 	xori	t6,t1,0x3432
- 210:	80010030 	lb	at,48(zero)
+ 200:	424d6572 	c0	0x4d6572
+ 204:	554e4700 	bnel	t2,t6,11e08 <BLACKLINE_MSK+0x11708>
+ 208:	20534120 	addi	s3,v0,16672
+ 20c:	34322e32 	ori	s2,at,0x2e32
+ 210:	0030392e 	0x30392e
+ 214:	Address 0x0000000000000214 is out of bounds.
+
 
 Disassembly of section .debug_abbrev:
 
@@ -1192,7 +1194,7 @@ Disassembly of section .debug_line:
  174:	00000000 	nop
  178:	02050000 	0x2050000
  17c:	80000204 	lb	zero,516(zero)
- 180:	0100c903 	0x100c903
+ 180:	0100c703 	0x100c703
  184:	834b4b4b 	lb	t3,19275(k0)
  188:	83838383 	lb	v1,-31869(gp)
  18c:	4b4b4b83 	c2	0x14b4b83
@@ -1210,10 +1212,10 @@ Disassembly of section .debug_line:
  1bc:	4b4b8783 	c2	0x14b8783
  1c0:	844c4b4b 	lh	t4,19275(v0)
  1c4:	4b4b4b86 	c2	0x14b4b86
- 1c8:	1386844c 	beq	gp,a2,fffe12fc <LOC_X_MSK+0xfe12fc>
+ 1c8:	1388844c 	beq	gp,t0,fffe12fc <LOC_X_MSK+0xfe12fc>
  1cc:	13861386 	beq	gp,a2,4fe8 <BLACKLINE_MSK+0x48e8>
  1d0:	13861386 	beq	gp,a2,4fec <BLACKLINE_MSK+0x48ec>
- 1d4:	bbbb8386 	swr	k1,-31866(sp)
+ 1d4:	bbbb8389 	swr	k1,-31863(sp)
  1d8:	4b87bbbb 	c2	0x187bbbb
  1dc:	4b85144b 	c2	0x185144b
  1e0:	144b8514 	bne	v0,t3,fffe1634 <LOC_X_MSK+0xfe1634>
@@ -1223,7 +1225,7 @@ Disassembly of section .debug_line:
  1f0:	85144b4c 	lh	s4,19276(t0)
  1f4:	838a144b 	lb	t2,5195(gp)
  1f8:	bbbbbbbb 	swr	k1,-17477(sp)
- 1fc:	85bbbbbb 	lh	k1,-17477(t5)
+ 1fc:	87bbbbbb 	lh	k1,-17477(sp)
  200:	134b4b4b 	beq	k0,t3,12f30 <BLACKLINE_MSK+0x12830>
  204:	4b4b4b85 	c2	0x14b4b85
  208:	4b4b8513 	c2	0x14b8513

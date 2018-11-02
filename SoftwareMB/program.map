@@ -241,13 +241,13 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000      0x214
+.debug_info     0x0000000000000000      0x216
  *(.debug_info)
  .debug_info    0x0000000000000000       0x64 crt0.o
  .debug_info    0x0000000000000064       0x64 boot.o
  .debug_info    0x00000000000000c8       0x6a exceptions.o
  .debug_info    0x0000000000000132       0x65 dummy.o
- .debug_info    0x0000000000000197       0x7d main.o
+ .debug_info    0x0000000000000197       0x7f main.o
 
 .debug_abbrev   0x0000000000000000       0x64
  *(.debug_abbrev)

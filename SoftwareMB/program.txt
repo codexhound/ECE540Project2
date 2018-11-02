@@ -647,7 +647,7 @@ Disassembly of section .debug_info:
  188:	53412055 	beql	k0,at,82e0 <BLACKLINE_MSK+0x7be0>
  18c:	322e3220 	andi	t6,s1,0x3220
  190:	30392e34 	andi	t9,at,0x2e34
- 194:	79800100 	ori.b	$w4,$w0,0x80
+ 194:	7b800100 	xori.b	$w4,$w0,0x80
  198:	02000000 	0x2000000
  19c:	00005000 	sll	t2,zero,0x0
  1a0:	52010400 	beql	s0,at,11a4 <BLACKLINE_MSK+0xaa4>
@@ -672,13 +672,15 @@ Disassembly of section .debug_info:
  1ec:	34354543 	ori	s5,at,0x4543
  1f0:	6f725030 	0x6f725030
  1f4:	7463656a 	jalx	18d95a8 <LOC_Y_MSK+0x8e95a8>
- 1f8:	6f535c31 	0x6f535c31
+ 1f8:	6f535c32 	0x6f535c32
  1fc:	61777466 	0x61777466
- 200:	47006572 	bz.b	$w0,197cc <BLACKLINE_MSK+0x190cc>
- 204:	4120554e 	0x4120554e
- 208:	2e322053 	sltiu	s2,s1,8275
- 20c:	392e3432 	xori	t6,t1,0x3432
- 210:	80010030 	lb	at,48(zero)
+ 200:	424d6572 	c0	0x4d6572
+ 204:	554e4700 	bnel	t2,t6,11e08 <BLACKLINE_MSK+0x11708>
+ 208:	20534120 	addi	s3,v0,16672
+ 20c:	34322e32 	ori	s2,at,0x2e32
+ 210:	0030392e 	0x30392e
+ 214:	Address 0x0000000000000214 is out of bounds.
+
 
 Disassembly of section .debug_abbrev:
 
@@ -808,7 +810,7 @@ Disassembly of section .debug_line:
  174:	00000000 	nop
  178:	02050000 	0x2050000
  17c:	80000204 	lb	zero,516(zero)
- 180:	0100c903 	0x100c903
+ 180:	0100c703 	0x100c703
  184:	834b4b4b 	lb	t3,19275(k0)
  188:	83838383 	lb	v1,-31869(gp)
  18c:	4b4b4b83 	c2	0x14b4b83
@@ -826,10 +828,10 @@ Disassembly of section .debug_line:
  1bc:	4b4b8783 	c2	0x14b8783
  1c0:	844c4b4b 	lh	t4,19275(v0)
  1c4:	4b4b4b86 	c2	0x14b4b86
- 1c8:	1386844c 	beq	gp,a2,fffe12fc <LOC_X_MSK+0xfe12fc>
+ 1c8:	1388844c 	beq	gp,t0,fffe12fc <LOC_X_MSK+0xfe12fc>
  1cc:	13861386 	beq	gp,a2,4fe8 <BLACKLINE_MSK+0x48e8>
  1d0:	13861386 	beq	gp,a2,4fec <BLACKLINE_MSK+0x48ec>
- 1d4:	bbbb8386 	swr	k1,-31866(sp)
+ 1d4:	bbbb8389 	swr	k1,-31863(sp)
  1d8:	4b87bbbb 	c2	0x187bbbb
  1dc:	4b85144b 	c2	0x185144b
  1e0:	144b8514 	bne	v0,t3,fffe1634 <LOC_X_MSK+0xfe1634>
@@ -839,7 +841,7 @@ Disassembly of section .debug_line:
  1f0:	85144b4c 	lh	s4,19276(t0)
  1f4:	838a144b 	lb	t2,5195(gp)
  1f8:	bbbbbbbb 	swr	k1,-17477(sp)
- 1fc:	85bbbbbb 	lh	k1,-17477(t5)
+ 1fc:	87bbbbbb 	lh	k1,-17477(sp)
  200:	134b4b4b 	beq	k0,t3,12f30 <BLACKLINE_MSK+0x12830>
  204:	4b4b4b85 	c2	0x14b4b85
  208:	4b4b8513 	c2	0x14b8513
