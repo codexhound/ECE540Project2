@@ -1,5 +1,4 @@
 // icontest.v
-// 31 May 2014
 //
 // Drive the icon module to test correct mapping
 
